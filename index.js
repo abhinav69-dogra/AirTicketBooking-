@@ -4,6 +4,7 @@ const apiRoutes = require('./routes/index');
 const app = express();
 
 const {PORT} = require('./config/serverConfig');
+const db = require('./models/index');
 
 const setupStartServer = () => {
 
